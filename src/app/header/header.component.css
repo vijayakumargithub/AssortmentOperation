@@ -1,0 +1,18 @@
+.header {
+  background-color: #007bc4;
+  line-height: 3;
+}
+.header__Logo {
+  height: 60px;
+  width: 200px;
+  margin: 0;
+  text-decoration: none;
+}
+.header__Logo--visuallyhidden {
+  display: table-cell;
+  padding: 0;
+  vertical-align: top;
+  color: #fff;
+  font-size: 35px;
+  font-weight: bold;
+}

@@ -1,0 +1,55 @@
+<div>
+    <div class="row">
+        <form (ngSubmit)="onSubmit(productForm.value)" #productForm="ngForm">
+            <label>Product Name</label>
+            <input type="text" name="name" [(ngModel)]="products.productName" placeholder="Product Name" />
+            <label>quantity</label>
+            <input type="text" name="description" [(ngModel)]="products.quantity" placeholder="quantity" />
+            <label>availabilityStatus</label>
+            <input type="text" name="languageCode" [(ngModel)]="products.availabilityStatus" placeholder="availabilityStatus" />
+            <br />
+            <input *ngIf= false [(ngModel)]="products.productId" name="id"/>
+            <br /> &nbsp;
+             <button type="submit" *ngIf= submitSelected>Save</button>
+             <input type="button" value="UpDATE" *ngIf= !submitSelected (click)="updateProduct(products)" />
+        </form>
+      </div>
+    <br />
+    <br />
+    <table class="product-details" border="0">
+        <tr *ngFor="let product of productArray">
+          <td>
+            <div class="pdLR15">
+                <div class="imgblock">
+                  <a href="https://www.walmart.com/" title="{{product.productName}}">
+                    <img height="68" width="165" src="{{product.imageSrc}}" alt="wallmart_product" title="wallmart_product">
+                  </a>
+                </div>
+                <div class="details">
+                    <div class="producttitle">
+                      <a class="productlabel" href="https://www.walmart.com/" title="{{product.productName}}">{{product.productName}}</a>
+                      <br>
+                    </div>
+                    <div class="offercontwrap">
+                      <div class="offlefttext hand"><span>Product Type:</span>{{product.productType}}</div>
+                    </div>
+            				<div class="specicons" style="border: none;">
+                        <ul>
+                            <li title="quantity"><span>quantity : </span> {{product.quantity}}</li>
+                            <li title="availabilityStatus"><span>Status : </span> {{product.availabilityStatus}}</li>
+                            <li class="isShippingPassEligible"><span>Shipping elligible : </span> {{product.isShippingPassEligible}}</li>
+                        </ul>
+                    </div>
+                  </div>
+                  <div class="mainamount">
+                    <div class="price">
+                      <span class="webrupee">$ </span> {{product.price}}
+                    </div>
+                    <input class="btnused" type="button" value="edit" (click)="editProduct(product)" /> <br>
+                    <input class="btnused" type="button" value="delete" [disabled]= editselected (click)="deleteProduct(product.productId)" />
+                  </div>
+                </div>
+          </td>
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,124 @@
+.product-details {
+  width: 100%;
+}
+.product-details tr {
+  padding: 15px 0 0;
+  background: #fff;
+  margin-bottom: 16px;
+  position: relative;
+}
+.pdLR15 {
+  padding: 0 0 15px 0;
+  border: solid 1px #e4e4e4;
+  float: left;
+}
+.imgblock {
+    float: left;
+    width: 165px;
+    margin: 0 5px 0 10px;
+}
+.imgblock a,
+.productlabel {
+    color: #2f2f2f;
+    outline-style: none;
+    outline-width: medium;
+    line-height: inherit;
+    text-decoration: none;
+}
+.imgblock a img {
+  border: 0;
+  display: block;
+}
+.details {
+    float: left;
+    width: 500px;
+    margin-right: 10px;
+}
+.details .producttitle {
+    font-size: 22px;
+    color: #111;
+    font-family: 'robotobold';
+    font-weight: normal;
+    margin-bottom: 12px;
+    line-height: normal;
+}
+.offercontwrap {
+    width: 322px;
+}
+.offercontwrap .offboxleft {
+    width: 100px;
+    float: left;
+}
+.offercontwrap .offboxleft .offlefttext {
+    width: 86px;
+    float: left;
+    border-radius: 3px 0 0 3px;
+    background: #ef5a28;
+    line-height: 27px;
+    text-align: center;
+    color: #fff;
+    font-family: "robotomedium";
+    font-size: 14px;
+}
+.details .specicons {
+    border-top: solid 1px #eaeaea;
+    padding-top: 35px;
+    color: #353535;
+    font-size: 14px;
+}
+.specicons ul {
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
+.details .specicons li {
+    padding: 0;
+    border: 0;
+    float: left;
+    margin: 0 5px 9px;
+    width: 153px;
+    list-style-type: none;
+}
+.details .specicons li span {
+  color:#333333;
+}
+.specicons .kmicon {
+    background-position: -1px -2px;
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+    vertical-align: -2px;
+}
+.product-details .mainamount {
+    width: 212px;
+    float: left;
+}
+.product-details .mainamount .price {
+    color: #000;
+    font-size: 17px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 3px 0 1px;
+}
+.webrupee {
+    font-family: 'girnar_rupeeregular'!important;
+}
+.mainamount .btnused {
+    width: 145px;
+    background-color: #eee;
+    -webkit-box-shadow: 1px 2px 2px rgba(145,145,145,0.13), inset 0 1px #fff;
+    -moz-box-shadow: 1px 2px 2px rgba(145,145,145,0.13),inset 0 1px #fff;
+    box-shadow: 1px 2px 2px rgba(145,145,145,0.13), inset 0 1px #fff;
+    border: solid 1px #d8d8d8;
+    background-image: linear-gradient(to top,#ececec,#f3f3f3);
+    font-size: 14px;
+    font-weight: bold;
+    color: #262626;
+    text-align: center;
+    padding: 9px 5px;
+    margin-top: 10px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}

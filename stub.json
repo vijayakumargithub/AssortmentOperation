@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "productId": "63",
+      "productName": "Colgate Total Advanced Whitening Toothpaste - 2 CT",
+      "productType": "REGULAR",
+      "price": 5.96,
+      "imageSrc": "https://i5.walmartimages.com/asr/fec3e199-f31d-4dfd-ad7a-d53c1d3499ee_1.7003894afc73d03bc0135f48a8a43767.jpeg",
+      "quantity": 157,
+      "isShippingPassEligible": false,
+      "availabilityStatus": "AVAILABLE"
+    },
+    {
+      "productId": "64",
+      "productName": "Colgate Total Advanced Whitening Toothpaste - 2 CST",
+      "productType": "REGULAR",
+      "price": 6.02,
+      "imageSrc": "https://i5.walmartimages.com/asr/fec3e199-f31d-4dfd-ad7a-d53c1d3499ee_1.7003894afc73d03bc0135f48a8a43767.jpeg",
+      "quantity": 157,
+      "isShippingPassEligible": false,
+      "availabilityStatus": "AVAILABLE"
+    }
+  ]
+}
